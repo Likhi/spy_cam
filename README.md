@@ -22,4 +22,7 @@ Run the script using: python spy_cam.py
 
 ## Anything else?
 
-LOG.log notes when the script has taken a picture, using the filename (which has a timestamp in it).
+LOG.log notes when the script has taken a picture, including the captures the filename (which has a timestamp in it).
+
+The algorithm kind of simple. It uses scikit image's structural similarity calculation, scoring it on a 
+scale of -1 to 1, 1 is identical. If the similiarity falls below 0.9, the script saves the webcam capture.
