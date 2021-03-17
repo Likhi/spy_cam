@@ -6,7 +6,7 @@ This uses your webcam to take the offender's picture.
 
 ## Maybe run these:
 
-python -m venv venv
+python -m venv .venv
 
 .\venv\scripts\activate
 
