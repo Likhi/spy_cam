@@ -9,3 +9,7 @@ python -m pip install --upgrade pip
 ## Then, definitely run this:
 
 python -m pip install -r requirements.txt
+
+## Now what?
+
+Run the script using: python spy_cam.py
