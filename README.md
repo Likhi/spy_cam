@@ -8,7 +8,7 @@ Im'ma take their picture.
 
 python -m venv .venv
 
-.\venv\scripts\activate
+.\.venv\scripts\activate
 
 python -m pip install --upgrade pip
 
