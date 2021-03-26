@@ -6,7 +6,8 @@ Im'ma take their picture.
 
 ## Maybe run these
 
-python -m venv .venv
+python -m venv .venv 
+^if that doesn't work the first time, run it again, maybe add on a 'sudo' or maybe run it in PowerShell.
 
 .\.venv\scripts\activate
 
